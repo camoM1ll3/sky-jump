@@ -1,4 +1,7 @@
-using System;
+///---------------------------------
+/// 久しぶりに思い出すためのコード
+///---------------------------------
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -24,7 +27,7 @@ public class UserMoves : MonoBehaviour
         // 現在のキーボード情報の取得
         var kb = Keyboard.current;
 
-        // 現在地の取得兼変数宣言
+        // 変数宣言
         Vector3 curPos = Vector3.zero;
 
         // 右移動
